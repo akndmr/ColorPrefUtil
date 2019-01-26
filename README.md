@@ -1,7 +1,7 @@
 # ColorPrefUtil
 
 [![Release](https://jitpack.io/v/akndmr/ColorPrefUtil.svg)]
-(https://jitpack.io/#akndmr/ColorPrefUtil/1.0.1)
+(https://jitpack.io/#akndmr/ColorPrefUtil)
 
 ColorPrefUtil for Android
 
