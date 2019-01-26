@@ -43,6 +43,9 @@ Easily change theme & background or text colors of views.
 </div>
 </div>
 </div>
+
+<!-- ************************** -->
+
 <div class="row">
 <div class="col-lg-10">
 <h2><strong>Usage</strong></h2>
@@ -54,6 +57,7 @@ Easily change theme & background or text colors of views.
 <div class="tab-content depTabs">
 <div class="tab-pane depTab gradle active" role="tabpanel">
 <h4><strong>Changing Theme</strong></h4>
+<p>First, you need to set different styles for different color themes.</p>
 <p><strong>styles.xml</strong></p>
 <pre>&lt;style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"&gt;<br />    &lt;!-- Customize your theme here. --&gt;<br />    &lt;item name="colorPrimary"&gt;@color/colorPrimary&lt;/item&gt;<br />    &lt;item name="colorPrimaryDark"&gt;@color/colorPrimaryDark&lt;/item&gt;<br />    &lt;item name="colorAccent"&gt;@color/colorAccent&lt;/item&gt;<br />&lt;/style&gt;<br /><br />&lt;style name="AppThemePurple" parent="Theme.AppCompat.Light.DarkActionBar"&gt;<br />    &lt;item name="colorPrimary"&gt;@color/colorPrimaryPurple&lt;/item&gt;<br />    &lt;item name="colorPrimaryDark"&gt;@color/colorPrimaryDarkPurple&lt;/item&gt;<br />    &lt;item name="colorAccent"&gt;@color/colorAccentPurple&lt;/item&gt;<br />&lt;/style&gt;</pre>
 <p>&nbsp;</p>
