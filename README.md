@@ -117,6 +117,9 @@ First, you need to set different styles for different color themes.
     ColorPrefUtil.changeColorOfTabLayout(this, mTabLayout, colorSelected, colorSelectedLight, R.color.textColor, R.color.textColor);
     
    
+
+**LICENSE**
+
 MIT License
 
 Copyright (c) 2019 Akın Demir
