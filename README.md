@@ -43,3 +43,25 @@ Easily change theme & background or text colors of views.
 </div>
 </div>
 </div>
+<div class="row">
+<div class="col-lg-10">
+<h2><strong>Usage</strong></h2>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-10">
+<div role="tabpanel">
+<div class="tab-content depTabs">
+<div class="tab-pane depTab gradle active" role="tabpanel">
+<h4><strong>Changing Theme</strong></h4>
+<p><strong>styles.xml</strong></p>
+<pre>&lt;style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"&gt;<br />    &lt;!-- Customize your theme here. --&gt;<br />    &lt;item name="colorPrimary"&gt;@color/colorPrimary&lt;/item&gt;<br />    &lt;item name="colorPrimaryDark"&gt;@color/colorPrimaryDark&lt;/item&gt;<br />    &lt;item name="colorAccent"&gt;@color/colorAccent&lt;/item&gt;<br />&lt;/style&gt;<br /><br />&lt;style name="AppThemePurple" parent="Theme.AppCompat.Light.DarkActionBar"&gt;<br />    &lt;item name="colorPrimary"&gt;@color/colorPrimaryPurple&lt;/item&gt;<br />    &lt;item name="colorPrimaryDark"&gt;@color/colorPrimaryDarkPurple&lt;/item&gt;<br />    &lt;item name="colorAccent"&gt;@color/colorAccentPurple&lt;/item&gt;<br />&lt;/style&gt;</pre>
+<p>&nbsp;</p>
+<p><strong>MainActivity.java</strong></p>
+<pre>@Override<br />protected void onCreate(Bundle savedInstanceState) {<br />    super.onCreate(savedInstanceState);<br /><br />    // Set theme before setContentView<br />    mSharedPreferences = getSharedPreferences(PREF_COLOR, MODE_PRIVATE);<br />    int themeSelected = mSharedPreferences.getInt(THEME_SELECTED, R.style.AppTheme);<br />    ColorPrefUtil.changeThemeStyle(this, themeSelected);<br /><br />    setContentView(R.layout.activity_main);<br /><br />//...<br />}<br /><br /></pre>
+<pre class="kode code-toolbar  language-css"><code id="depCodeGradle" class=" kode  language-css"><span class="token punctuation">&nbsp;</span></code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
