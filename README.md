@@ -69,3 +69,30 @@ Easily change theme & background or text colors of views.
 </div>
 </div>
 </div>
+
+<!-- *************************** -->
+
+<div class="row">
+<div class="col-lg-10">
+<h2><strong>Usage</strong></h2>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-10">
+<div role="tabpanel">
+<div class="tab-content depTabs">
+<div class="tab-pane depTab gradle active" role="tabpanel">
+<h4><strong>Changing BackgroundColor of Single or All Views</strong></h4>
+<p>First, you need to set different styles for different color themes.</p>
+<p><strong>MainActivity.java</strong></p>
+<pre>@Override<br />protected void onCreate(Bundle savedInstanceState) {<br />    super.onCreate(savedInstanceState);<br /><br />// Single view</pre>
+<pre>mButton = findViewById(R.id.button);</pre>
+<pre>ColorPrefUtil.changeBackgroundColorOfSingleView(this, mButton, colorSelected);<br /><br /><br />// All views inside parent layout</pre>
+<pre>mConstraintLayout = findViewById(R.id.cl_container);</pre>
+<pre>ColorPrefUtil.changeBackgroundColorOfChildViews(this, mConstraintLayout, colorSelected);<br />}<br /><br /></pre>
+<pre class="kode code-toolbar  language-css"><code id="depCodeGradle" class=" kode  language-css"><span class="token punctuation">&nbsp;</span></code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
