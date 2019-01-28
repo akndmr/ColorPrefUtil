@@ -3,7 +3,7 @@
 
 ColorPrefUtil for Android
 
-Easily change theme & background or text colors of views.
+Easily change theme & background or text colors of views&layouts. [API >= 19]
 
 ![enter image description here](https://raw.githubusercontent.com/akndmr/ColorPrefUtil/master/ColorPrefUtil.gif)
 
@@ -124,6 +124,7 @@ First, you need to set different styles for different color themes - if you want
     
    
 
+<br /><br />
 **LICENSE**
 
 MIT License
