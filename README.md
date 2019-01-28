@@ -34,7 +34,7 @@ Add it in your root build.gradle at the end of repositories:
 
 #### [](https://github.com/akndmr/ColorPrefUtil/blob/master/README.md#changing-theme)**Changing Theme**
 
-First, you need to set different styles for different color themes.
+First, you need to set different styles for different color themes - if you want to change theme(setTheme(R.style.id)).
 
 **styles.xml**
 
