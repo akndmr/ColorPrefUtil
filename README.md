@@ -71,8 +71,6 @@ First, you need to set different styles for different color themes - if you want
  
 #### [](https://github.com/akndmr/ColorPrefUtil/blob/master/README.md#changing-backgroundcolor-of-single-or-all-views)**Changing BackgroundColor of Single View and All Views**
 
-First, you need to set different styles for different color themes.
-
 **MainActivity.java**
 
     @Override  
