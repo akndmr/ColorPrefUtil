@@ -1,9 +1,11 @@
 # ColorPrefUtil
 ![Release](https://jitpack.io/v/akndmr/ColorPrefUtil.svg)
-
+</br>
+<p align="center">
+<img src="https://raw.githubusercontent.com/akndmr/ColorPrefUtil/master/ColorPrefUtilLogo.png" height="100" width="100">
+</p>
+</br>
 ColorPrefUtil for Android
-![ColorPrefUtil Logo](https://raw.githubusercontent.com/akndmr/ColorPrefUtil/master/ColorPrefUtilLogo.png =50x50)
-
 Easily change theme & background or text colors of views&layouts. [API >= 19]
 
 ![ColorPrefUtil sample gif](https://raw.githubusercontent.com/akndmr/ColorPrefUtil/master/ColorPrefUtil.gif)
