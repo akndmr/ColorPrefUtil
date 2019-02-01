@@ -1,12 +1,21 @@
 # ColorPrefUtil
-![Release](https://jitpack.io/v/akndmr/ColorPrefUtil.svg)
-</br>
-<img src="https://raw.githubusercontent.com/akndmr/ColorPrefUtil/master/ColorPrefUtilLogo.png" height="100" width="100">
-</br>
 ColorPrefUtil for Android
 Easily change theme & background or text colors of views&layouts. [API >= 19]
 
+![Release](https://jitpack.io/v/akndmr/ColorPrefUtil.svg) ![](https://img.shields.io/github/license/akndmr/colorprefutil.svg?style=flat) ![](https://img.shields.io/github/stars/akndmr/colorprefutil.svg?colorB=orange&style=flat) ![](https://img.shields.io/github/languages/top/akndmr/ColorPrefUtil.svg?style=flat) ![](https://img.shields.io/github/languages/code-size/akndmr/ColorPrefUtil.svg?style=flat) ![](https://img.shields.io/github/issues-raw/akndmr/colorprefutil.svg?style=flat)
+
+</br>
+<img src="https://raw.githubusercontent.com/akndmr/ColorPrefUtil/master/ColorPrefUtilLogo.png" height="100" width="100">
+</br>
+
+------------
+
+
+**Sample Preview:**
 ![ColorPrefUtil sample gif](https://raw.githubusercontent.com/akndmr/ColorPrefUtil/master/ColorPrefUtil.gif)
+
+------------
+
 
 ## **Setup**
 
@@ -30,6 +39,9 @@ Add it in your root build.gradle at the end of repositories:
 	        implementation 'com.github.akndmr:ColorPrefUtil:1.0.1'
 	}
 ```
+
+------------
+
 
 ## [](https://github.com/akndmr/ColorPrefUtil/blob/master/README.md#usage)**Usage**
 
@@ -71,61 +83,81 @@ First, you need to set different styles for different color themes - if you want
     }  
 
  
- 
+
+------------
+
+
 #### [](https://github.com/akndmr/ColorPrefUtil/blob/master/README.md#changing-backgroundcolor-of-single-or-all-views)**Changing BackgroundColor of Single View and All Views**
 
 **MainActivity.java**
 
-    int colorSelected, colorSelectedLight;
+    int selectedBackgroundColorId;
     
     @Override  
     protected void onCreate(Bundle savedInstanceState) {  
         super.onCreate(savedInstanceState);  
 	
     // Get selected colorId from preferences, if null, use default background color(colorPrimary)
-    colorSelected = mSharedPreferences.getInt(COLOR_SELECTED, R.color.colorPrimary);
-    colorSelectedLight = mSharedPreferences.getInt(COLOR_SELECTED_LIGHT, R.color.colorPrimaryLight);
+    selectedBackgroundColorId = mSharedPreferences.getInt(COLOR_SELECTED, R.color.colorPrimary);
     
     // Single view  
     mButton = findViewById(R.id.button);  
-    ColorPrefUtil.changeBackgroundColorOfSingleView(this, mButton, colorSelected);  
+    ColorPrefUtil.changeBackgroundColorOfSingleView(this, mButton, selectedBackgroundColorId);  
       
     // All views inside parent layout
     mConstraintLayout = findViewById(R.id.cl_container);
-    ColorPrefUtil.changeBackgroundColorOfChildViews(this, mConstraintLayout, colorSelected);  
+    ColorPrefUtil.changeBackgroundColorOfChildViews(this, mConstraintLayout, selectedBackgroundColorId);  
     }
+
+
+------------
+
 
 **Changing Text Color of Single View and All Views**
 
     // All views inside given parent layout
-      ColorPrefUtil.changeTextColorOfChildViews(this, mConstraintLayout, colorSelected, colorSelectedLight);  
+      ColorPrefUtil.changeTextColorOfChildViews(this, mConstraintLayout, textColorId, hintColorId);  
      
      // Single view
-      ColorPrefUtil.changeTextColorOfSingleView(this, mTextView, colorSelected, colorSelectedLight);
+      ColorPrefUtil.changeTextColorOfSingleView(this, mTextView, textColorId, hintColorId);
+
+------------
+
 
 **Changing Tint Color of Icons (ImageView)**
 
-    ColorPrefUtil.changeTintColorOfIcon(this, mImageViewIcon, colorSelected);
+    ColorPrefUtil.changeTintColorOfIcon(this, mImageViewIcon, iconTintColorId);
+
+------------
+
 
 **Changing Background Drawable of Single View and All Views**
 *You can set custom background drawables for views.*
 
-    ColorPrefUtil.changeBackgroundDrawableOfChildViews(this, mConstraintLayout, colorSelected);  
-    ColorPrefUtil.changeBackgroundDrawableOfSingleView(this, mButton, R.drawable.ic_assignment);
+    ColorPrefUtil.changeBackgroundDrawableOfChildViews(this, mConstraintLayout, backgroundColorId);  
+    ColorPrefUtil.changeBackgroundDrawableOfSingleView(this, mButton, backgroundDrawableId);
+
+------------
+
 
 **Changing Item Colors of NavigationView**
 *Change icon tint color and text colors of Nav view.*
 
     ColorPrefUtil.changeColorOfItemsOfNavView(mNavigationView, iconColorId, textColorId);
 
+------------
+
+
 **Changing Colors of TabLayout**
 *Change TabLayout background, selected tab, indicator, text colors.*
 
-    ColorPrefUtil.changeColorOfTabLayout(this, mTabLayout, colorSelected, colorSelectedLight, R.color.textColor, R.color.textColor);
+    ColorPrefUtil.changeColorOfTabLayout(this, mTabLayout, backgroundColorId, selectedTabColorId, indicatorColorId, textColorId);
     
    
 
-<br /><br />
+------------
+
+<br />
 **LICENSE**
 
 MIT License
