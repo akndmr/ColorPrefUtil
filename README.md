@@ -1,11 +1,14 @@
 # ColorPrefUtil
-ColorPrefUtil for Android</br>
+<img src="https://raw.githubusercontent.com/akndmr/ColorPrefUtil/master/ColorPrefUtilLogo.png" height="100" width="100">
+</br>
+ColorPrefUtil for Android
+</br>
 Easily change theme & background or text colors of views&layouts. [API >= 19]
-</br></br>
-![Release](https://jitpack.io/v/akndmr/ColorPrefUtil.svg) ![](https://img.shields.io/github/license/akndmr/colorprefutil.svg?style=flat) ![](https://img.shields.io/github/stars/akndmr/colorprefutil.svg?colorB=orange&style=flat) ![](https://img.shields.io/github/languages/top/akndmr/ColorPrefUtil.svg?style=flat) ![](https://img.shields.io/github/languages/code-size/akndmr/ColorPrefUtil.svg?style=flat) ![](https://img.shields.io/github/issues-raw/akndmr/colorprefutil.svg?style=flat)
+</br>
 
 </br>
-<img src="https://raw.githubusercontent.com/akndmr/ColorPrefUtil/master/ColorPrefUtilLogo.png" height="100" width="100">
+![Release](https://jitpack.io/v/akndmr/ColorPrefUtil.svg) ![](https://img.shields.io/github/license/akndmr/colorprefutil.svg?style=flat) ![](https://img.shields.io/github/stars/akndmr/colorprefutil.svg?colorB=orange&style=flat) ![](https://img.shields.io/github/languages/top/akndmr/ColorPrefUtil.svg?style=flat) ![](https://img.shields.io/github/languages/code-size/akndmr/ColorPrefUtil.svg?style=flat) ![](https://img.shields.io/github/issues-raw/akndmr/colorprefutil.svg?style=flat)
+
 </br>
 
 ------------
