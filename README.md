@@ -1,7 +1,7 @@
 # ColorPrefUtil
-ColorPrefUtil for Android
+ColorPrefUtil for Android</br>
 Easily change theme & background or text colors of views&layouts. [API >= 19]
-</br>
+</br></br>
 ![Release](https://jitpack.io/v/akndmr/ColorPrefUtil.svg) ![](https://img.shields.io/github/license/akndmr/colorprefutil.svg?style=flat) ![](https://img.shields.io/github/stars/akndmr/colorprefutil.svg?colorB=orange&style=flat) ![](https://img.shields.io/github/languages/top/akndmr/ColorPrefUtil.svg?style=flat) ![](https://img.shields.io/github/languages/code-size/akndmr/ColorPrefUtil.svg?style=flat) ![](https://img.shields.io/github/issues-raw/akndmr/colorprefutil.svg?style=flat)
 
 </br>
