@@ -12,6 +12,7 @@ Easily change theme & background or text colors of views&layouts. [API >= 19]
 
 
 **Sample Preview:**
+
 ![ColorPrefUtil sample gif](https://raw.githubusercontent.com/akndmr/ColorPrefUtil/master/ColorPrefUtil.gif)
 
 ------------
