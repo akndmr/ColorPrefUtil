@@ -7,7 +7,7 @@ Easily change theme & background or text colors of views&layouts. [API >= 19]
 </br>
 </br>
 
-![Release](https://jitpack.io/v/akndmr/ColorPrefUtil.svg) ![](https://img.shields.io/github/license/akndmr/colorprefutil.svg?style=flat) ![](https://img.shields.io/github/stars/akndmr/colorprefutil.svg?colorB=orange&style=flat) ![](https://img.shields.io/github/languages/top/akndmr/ColorPrefUtil.svg?style=flat) ![](https://img.shields.io/github/languages/code-size/akndmr/ColorPrefUtil.svg?style=flat) ![](https://img.shields.io/github/issues-raw/akndmr/colorprefutil.svg?style=flat)
+![Release](https://jitpack.io/v/akndmr/ColorPrefUtil.svg) [![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-ColorPrefUtil-green.svg?style=flat )]( https://android-arsenal.com/details/1/7502 ) ![](https://img.shields.io/github/license/akndmr/colorprefutil.svg?style=flat) ![](https://img.shields.io/github/stars/akndmr/colorprefutil.svg?colorB=orange&style=flat) ![](https://img.shields.io/github/languages/top/akndmr/ColorPrefUtil.svg?style=flat) ![](https://img.shields.io/github/languages/code-size/akndmr/ColorPrefUtil.svg?style=flat) ![](https://img.shields.io/github/issues-raw/akndmr/colorprefutil.svg?style=flat)
 
 </br>
 
